@@ -1,0 +1,29 @@
+name: Kraft9ja
+description: A Flutter app demonstrating the use of WebView.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^2.0.12
+
+dev_dependencies:
+  flutter_native_splash: ^1.2.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#FFFFFF" # background color of the splash screen
+  image: assets/splash.png # path to your splash screen image
+  android: true # whether to generate splash screen for Android
+  ios: true # whether to generate splash screen for iOS
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appicons.png" # Path to your app icon
